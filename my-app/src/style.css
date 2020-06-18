@@ -1,0 +1,24 @@
+div.boss{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+header,footer,section{
+    flex-grow: 1;
+}
+.navbar{
+    background-color: aqua;
+    text-align: center;
+    color: bisque;
+}
+
+h2{
+    color: coral;
+    background-color: darkgreen;
+    text-align: center;
+}
+
+

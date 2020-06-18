@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './style.css';//在同级引入；
 const Footer=()=>{
     return(
         <footer>

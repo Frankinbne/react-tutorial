@@ -1,0 +1,18 @@
+.todo-list{
+    width: 200px;
+    background-color: darkslategray;
+    margin: 0 auto;
+    padding: 0 50px 20px;
+}
+
+.todo-item{
+    display: flex;
+    text-align: center;
+    color: floralwhite;
+    border-bottom: 2px solid rgb(172, 180, 185);
+    padding: 20px 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import BtnNew from './Button' ;
 import Footer from './Footer';
 import Header from './Header';
+import './style.css';//在同级引入；
+
 
 
 /* const MyBook=()=>{
@@ -30,23 +32,28 @@ import Header from './Header';
 } */
 
 
-const MyBook=()=>{
+const MyApp=()=>{
     return(
-        <div>
+        <div className={'boss'}>
             <Header/>
-            <h1>Bob Zark</h1>
-            <p>This is a paragraph about me...</p>
-            <ul>
-                <li>Hongkong</li>
-                <li>Beijing</li>
-                <li>ShangHai</li>
-            </ul>
-            <br/>
-            <BtnNew/>
+            <section>
+                <h1>Bob Zark</h1>
+                <p>This is a paragraph about me...</p>
+                <ul>
+                    <li>Hongkong</li>
+                    <li>Beijing</li>
+                    <li>ShangHai</li>
+                </ul>
+                <br/>
+                <BtnNew/>
+            </section>
+
+
+
             <Footer/>
 
         </div>
     );
 };
 
-export default MyBook;
+export default MyApp;
