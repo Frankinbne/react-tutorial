@@ -4,10 +4,16 @@ import MyApp from './App';
 import AppTodo from './AppTodo';
 import GetHour from './FunStudy';
 import Youtu from './props/Youtu';
+import His from './props02/His';
+import LogIn from './class/LogIn'
+import Click from './event/Click'
+import ImportC from './event/ImportC'
 
 
-const e = <h1> Here is my new book </h1>
+
+
+
 
 ReactDom.render(
-    <Youtu/>
+    <ImportC />
     ,document.getElementById('root')); 
